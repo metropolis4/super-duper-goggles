@@ -1,0 +1,12 @@
+body {
+  background: #ffdab9;
+  color: #0ff;
+}
+.nav {
+  background: #0ff;
+  -webkit-border-radius: 5;
+  -mox-border-radius: 5;
+  -ms-border-radius: 5;
+  -o-border-radius: 5;
+  border-radius: 5;
+}

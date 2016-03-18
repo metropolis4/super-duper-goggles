@@ -1,0 +1,9 @@
+vendors = webkit mox ms o official
+$build-vendor-style(el, val)
+    for vendor in vendors
+        if vendor == official
+            {el}: val
+        else
+            -{vendor}-{el}: val
+border-radius(num)
+    $build-vendor-style(border-radius, num)
